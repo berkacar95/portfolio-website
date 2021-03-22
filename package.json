@@ -4,7 +4,7 @@
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages",
+    "deploy": "gh-pages -d src",
     "start": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
   },
